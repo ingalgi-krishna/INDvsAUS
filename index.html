@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IND vs AUS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>IND vs AUS 24/06/2024</h1>
+      <div class="media-player">
+        <iframe
+          src="//stream.crichd.vip/update/skys2.php"
+          width="100%"
+          height="500px"
+          marginheight="0"
+          marginwidth="0"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen
+          allow="encrypted-media"
+        ></iframe>
+        <div class="controls">
+          <button id="playPauseBtn" class="control-btn">Play</button>
+          <input
+            type="range"
+            id="volumeSlider"
+            class="volume-slider"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
